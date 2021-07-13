@@ -1,6 +1,4 @@
-# # README
-
-## Vehicle Sizing API
+# Vehicle Sizing API
 
 ### Getting the API up and running:
 
