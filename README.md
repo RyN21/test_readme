@@ -3,15 +3,15 @@
 ## About
 
 - This is a single endpoint RESTful API which when provided with one or more items to transport returns the size of the vehicle required. It was designed and built to take in a list of items in JSON as a request and would respond by sending back the appropriate vehicle in JSON.
-- While designing the layout, I wanted to keep the controller small, so I added a facade that would deal with the bulk of the logic in determining the correct vehicle. 
-- I had in mind to create am item class, but decided against it for simplicity, and with the assumption that the vehicle sizes would not change much. If vehicle specs needed to be changed, it would be simple to do within the facade. 
+- While designing the layout, I wanted to keep the controller small, so I added a facade that would deal with the bulk of the logic in determining the correct vehicle.
+- I had in mind to create am item class, but decided against it for simplicity, and with the assumption that the vehicle sizes would not change much. If vehicle specs needed to be changed, it would be simple to do within the facade.
 - There are two sets of test:
-  - Request tests: 
+  - Request tests:
     - Tested to ensure that everything was formatted correctly and responses where coming back successful and with correct body.
-    - Tested different scenarios to ensure facade logic was correct. 
+    - Tested different scenarios to ensure facade logic was correct.
   - Unit tests:
-    - Tested each instance method of the VehicleFacade class and the method that did the bulk of the logic when determining which vehicle would be needed based on the items dimensions. 
-  
+    - Tested each instance method of the VehicleFacade class and the method that did the bulk of the logic when determining which vehicle would be needed based on the dimensions of the items.
+
 
 ## Getting the API up and running:
 
@@ -60,3 +60,12 @@ I used postman to ensure that the data requested was returning the correct data 
         }
       }
       ```
+
+## Testing
+
+- RSpec:
+  - To run the spec files, run `bundle exec rspec`
+  - All tests should pass.
+- SimpleCov:
+  - To have a closer look at the coverage percentage, you can run `open coverage/index.html`
+  - Test coverage should be at 100%
