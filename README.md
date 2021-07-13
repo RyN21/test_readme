@@ -19,6 +19,7 @@ I used postman to ensure that the data requested was returning the correct data 
   - next select "Body" underneath the requested url
   - Select raw and then on make sure `JSON` is selected in the dropdown options
   - the body should be written in this format:
+  - 
       ```{"items": [
         {
           "length": 5.9,
@@ -35,7 +36,9 @@ I used postman to ensure that the data requested was returning the correct data 
           "quantity": 2
         }
       ]}```
+      
   - Once the desired dimensions are entered, hit `send` and viola! The correct vehicle should be displayed as:
+  - 
       ```{
         "data": {
           "vehicle_type": "truck"
