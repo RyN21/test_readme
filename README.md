@@ -20,7 +20,7 @@ I used postman to ensure that the data requested was returning the correct data 
   - Select raw and then on make sure `JSON` is selected in the dropdown options
   - The body should be written in this format:
 
-      ```{"items": [
+      `{"items": [
         {
           "length": 5.9,
           "width": 1.8,
@@ -35,15 +35,15 @@ I used postman to ensure that the data requested was returning the correct data 
           "weight": 12.2,
           "quantity": 2
         }
-      ]}```
+      ]}`
       
   - Once the desired dimensions are entered, hit `send` and viola! The correct vehicle should be displayed as:
   
-      ```{
+      `{
         "data": {
           "vehicle_type": "truck"
         }
-      }```
+      }`
 
 
 This README would normally document whatever steps are necessary to get the
