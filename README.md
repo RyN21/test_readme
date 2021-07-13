@@ -68,4 +68,8 @@ I used postman to ensure that the data requested was returning the correct data 
   - All tests should pass.
 - SimpleCov:
   - To have a closer look at the coverage percentage, you can run `open coverage/index.html`
+    - be sure to have run `bundle exec rspec` first before running `open coverage/index.html`
   - Test coverage should be at 100%
+
+
+
