@@ -35,7 +35,7 @@ I used postman to ensure that the data requested was returning the correct data 
           "weight": 12.2,
           "quantity": 2
         }
-      ]}
+      ]}```
       
   - Once the desired dimensions are entered, hit `send` and viola! The correct vehicle should be displayed as:
   
@@ -43,7 +43,7 @@ I used postman to ensure that the data requested was returning the correct data 
         "data": {
           "vehicle_type": "truck"
         }
-      }
+      }```
 
 
 This README would normally document whatever steps are necessary to get the
