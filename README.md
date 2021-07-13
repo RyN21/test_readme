@@ -1,6 +1,6 @@
 # Vehicle Sizing API
 
-### Getting the API up and running:
+## Getting the API up and running:
 
 - Download the file to you computer.
 - Make sure to have ruby and rails installed. This API was built with the following versions:
@@ -9,7 +9,7 @@
 - run `bundle install` to install the necessary gems
 - run `rails s` to start the your local server
 
-### Using Postman
+## Using Postman
 
 I used postman to ensure that the data requested was returning the correct data in addition to my request_specs
 - To start:
